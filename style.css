@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:letra ;
+    src: url(fonte/HelloBragTags.ttf);}
+
+body{text-align: center;
+    background-image:url(fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+h1{font-family: letra , Helvetica, sans-serif;
+    font-size: 100px;
+    color: #ddfcf8;}
+
+@media(max-width:414px){
+    h1{font-size: 60px;};}
+
+@media(max-width:780px){
+    body{background-repeat: repeat;
+    background-size: auto};}
+
+.stage{text-align: center;}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color:beige;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;}
+
+@media(max-width:280px){
+   .square{width: 70px;
+           height: 70px};}
+
+.o{position: relative;}
+
+.o:after{
+    position: absolute;
+    content: "\1F7E2";
+    font-size: 60px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;}
+
+.x{position: relative;}
+
+.x:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 60px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;}
+
+ button{ padding: 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 45px;
+    font-family: letra, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: rgb(209, 255, 255);}
+
+    @media(max-width:400px){
+    button{font-size: 40px;};}
+
+    @media(max-width:280px){
+    button{font-size: 33px;};}
+
+.btn:hover{
+background-color: #51ff51cc;
+color: hsl(0, 0%, 0%);
+transition-property: all;
+transition-duration: 700ms;}
