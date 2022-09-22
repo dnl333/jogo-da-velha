@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:letra ;
-    src: url(fonte/HelloBragTags.ttf);}
+    src: url(fonte/Gemini\ Moon.otf);}
 
 body{text-align: center;
     background-image:url(fundo.png);
@@ -11,7 +11,7 @@ body{text-align: center;
 
 h1{font-family: letra , Helvetica, sans-serif;
     font-size: 100px;
-    color: #ddfcf8;}
+    color: #f8f559;}
 
 @media(max-width:414px){
     h1{font-size: 60px;};}
@@ -60,10 +60,11 @@ h1{font-family: letra , Helvetica, sans-serif;
  button{ padding: 10px;
     border-radius: 5px;
     margin-top: 25px;
-    font-size: 45px;
+    font-size: 25px;
     font-family: letra, Helvetica, sans-serif;
     font-weight: 600;
-    background-color: rgb(209, 255, 255);}
+    background-color: rgb(255, 242, 53);
+}
 
     @media(max-width:400px){
     button{font-size: 40px;};}
